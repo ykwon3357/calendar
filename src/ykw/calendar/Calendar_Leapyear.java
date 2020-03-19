@@ -2,7 +2,7 @@ package ykw.calendar;
 
 import java.util.Scanner;
 
-public class Calendar {
+public class Calendar_Leapyear {
 	// 31 29 31 30 31 30 31 31 30 31 30 31
 	// 4년 마다 2월 29일
 	// if 배열
@@ -23,7 +23,7 @@ public class Calendar {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Calendar cal = new Calendar();
+		Calendar_Leapyear cal = new Calendar_Leapyear();
 
 		System.out.println("년도,달 입력하세요.");
 		String num = sc.nextLine();
