@@ -3,7 +3,7 @@ package ykw.calendar;
 public class Calendar {
 
 	public void printCalendar(int year, int month) {
-		getValue get = new getValue();
+		GetValue get = new GetValue();
 		int max = get.MaxDaysOfMonth(year, month);
 
 		// 제목

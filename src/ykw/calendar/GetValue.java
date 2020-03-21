@@ -1,8 +1,8 @@
 package ykw.calendar;
 
-public class getValue {
+public class GetValue {
 	private static final int[] MAX_DAYS = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-	static getValue get = new getValue();
+	static GetValue get = new GetValue();
 
 	// 윤년
 	public boolean LeapYear(int year) {
