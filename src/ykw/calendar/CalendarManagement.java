@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class CalendarManagement {
 	static Scanner sc = new Scanner(System.in);
+
 	
 	//2020-01-01 형식인지 확인
 	public String dayCheck(String yearday, String command, int num2) {
@@ -94,7 +95,7 @@ public class CalendarManagement {
 			}
 
 			if (command.equals("2")) {
-				
+	
 				yearday = putYear(yearday, command);
 
 				if (yc.containsKey(yearday)) {
