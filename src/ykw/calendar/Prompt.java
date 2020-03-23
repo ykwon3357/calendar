@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Prompt {
 	static Scanner sc = new Scanner(System.in);
-
+ 
 	public void runPrompt() {
 		Calendar cal = new Calendar();
 
